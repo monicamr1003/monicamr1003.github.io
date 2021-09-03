@@ -1,0 +1,34 @@
+table {
+    border: 1px solid black;
+    padding: 0.5em;
+    width: 50em;    
+}
+/* pseudoclases permite vincular ciertas funcionalidades la 
+pseudoclases puede aplicarse a secciones especificas */
+section > table:hover {
+    color: #8c25aa;
+    cursor: pointer;
+}
+
+table .resaltar th, .resaltar {
+    color: #1100ff;
+    border: 1px dotted red;
+}
+table {
+    border-collapse: collapse;
+}
+
+table tbody td {
+    border-bottom: 1px solid blue;
+    border-right: 1px dotted gray;
+    margin: 10px 5px;
+}
+
+table thead {
+    border-bottom: 1px solid gray;
+}
+
+table thead th {
+    border-right: 1px solid blue;
+    padding: 10px 1em;
+}

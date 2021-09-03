@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- - HTML
+	- Haga uso de al menos de los elementos: h1, h2, section, ul, li, figure, figcaption, img, p, table, thead, tbody, tr, td. Valor: 3 puntos
+	- Se deben incluir al mentos 3 títulos o subtítulos. Valor: 1 punto.
+	- Se deben incluir al menos 3 párrafos de texto. No hay límite definido para la cantidad de texto. Valor: 1 punto.
+	
+- CSS
+	- Utilizando CSS, modificar el font-family del documento. Cambiar a un tipo de letra de su gusto. Valor: 1 punto.
+	- Utilizando CSS, agregar un borde superior a todos los títulos o subtítulos. Usted define el tamaño, color y ancho. Valor: 2 puntos.
+	- Utilizando CSS, modifique al menos dos atributos de presentación de algunos elementos de su elección dentro del documento. Valor: 2 puntos. -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas</title>
+    <style>
+        body {
+           font-family: "Nunito",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           color: #4C2B0D;
+           position: relative;
+           font-size: 1em;
+           line-height: 1.2;
+           margin:40px 30px 20px 30px;  
+        }
+        p{
+             text-align: justify
+        }
+        h1,h2 {
+            border-top: 3px solid rgb(14, 94, 54);
+        }
+        h2{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            background-color: rgb(211, 221, 216);
+        }
+        table {
+            border: 1px solid black;
+        }
+        table tbody td{
+            border-right: 1px dotted gray;
+            margin: 10px 5px;
+
+        }
+        thead{
+            background-color: royalblue;
+        }
+        .titulo{
+            text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+            color: white;
+            font: 2.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+            text-align:center;
+        }
+        .advertencia{
+            color: rgb(190, 23, 23);
+            font: 2.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+        }
+        .parrafo-advertencia{
+            color: rgb(190, 23, 23);
+            font: 2em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+            border: 0.5rem outset pink;
+            outline: 0.5rem solid khaki;
+            box-shadow: 0 0 0 2rem skyblue;
+            border-radius: 12px;
+
+        }
+        .introduccion{
+            font: 1.8em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+        }
+        .escalar{
+            width:600px;
+            height:400px
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1 class="titulo">Cheesecake de Fresa con gelatina</h1>
+        <figure>
+            <img class="escalar" src="cheesecake-fresa-con-gelatina.jpg" height="200" alt="Escudo de Costa Rica">
+            <figcaption>Cheescake de fresas</figcaption>
+            
+        </figure>
+        <p class="introduccion">Prepara una rica receta de cheesecake de fresa para disfrutar en todo momento. Pruébalo y sorprende a todos con esta deliciosa receta.</p>
+        <p>El pastel de queso tal y como lo conocemos ahora es el resultado de muchas modificaciones a lo largo de miles de años, se cree que su nacimiento se remonta 4000 años antes de la era actual, allá por la Antigua Grecia, en concreto en la isla de Samos.
+
+    En la Antigua Grecia este pastel de queso se consideraba una auténtica fuente de energía y no en vano era alimento de los primeros atletas de los juegos olímpicos cuando estos comenzaron en el año 776 a.C, aunque no fue hasta el año 230 d.C cuando al escritor Ateneo se le atribuyó la autoría de la primera receta escrita del pastel de queso, en aquellos tiempos simplemente se calentaba el queso triturado en una cacerola de cobre con miel y harina para posteriormente dejarlo enfriar y servir.
+    
+    Cuando Grecia fue conquistada por los romanos, la tarta de queso se convirtió en un motín de guerra. Ellos modificaron la receta incluyendo huevo y horneándola entre ladrillos calientes, la rebautizaron con el nombre de libuma y era un pastel que solo se servía en ocasiones muy especiales.</p>
+    </section>
+    <section>
+        <h2>Ingredientes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Insumo </th>
+                    <th>Cantidad en tazas</th>
+                    <th>Cantidad en gramos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Galletas María molidas</td>
+                    <td>1 taza</td>
+                    <td>220 g</td>
+                </tr>
+                <tr>
+                    <td>Mantequilla derretedia</td>
+                    <td>1/4 taza</td>
+                    <td>80 g</td>
+                </tr>
+                <tr>
+                    <td>Queso crema</td>
+                    <td>2 tazas</td>
+                    <td>454 g</td>
+                </tr>
+                <tr>
+                    <td>Leche condensada</td>
+                    <td>1 taza</td>
+                    <td>395 g</td>
+                </tr>
+                <tr>
+                    <td>Huevos</td>
+                    <td>1/2 taza</td>
+                    <td>100 g</td>
+                </tr>
+                <tr>
+                    <td>Fresas cortadas a la mitad</td>
+                    <td>1 1/2 taza</td>
+                    <td>227 g</td>
+                </tr>
+                <tr>
+                    <td>Ron</td>
+                    <td>1/8 de taza</td>
+                    <td>30 ml</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+    </section>
+    <section></section>
+        <h2>Preparación</h2>
+        <ul>
+            <li>Precalentar el horno a 200° C.</li>
+            <li>En un tazón, mezclar las galletas María molidas con la mantequilla. Verter la mezcla un molde desmontable y presionar para que se adhiera al fondo. Refrigerar</li>
+            <li>En otro tazón, batir el queso crema y la Leche Condensada LA LECHERA® hasta que esté sin grumos. Agregar los huevos y batir hasta tener una mezcla uniforme.</li>
+            <li>Verter la mezcla del queso en el molde con la corteza de galleta y hornear en baño María a 175° C por 45 minutos.</li>
+            <li>Retirar el molde del horno y dejar enfriar a temperatura ambiente.</li>
+            <li>En una cacerola a fuego bajo, colocar las fresas, el azúcar, el ron y cocinar hasta que se forme un sirope.</li>
+            <li>Desmontar el dulce del molde, cubrir con el sirope de fresas. Servir y disfrutar.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Utensilios</h2>
+        <ul>
+            <li>Horno</li>
+            <li>Molde</li>
+            <li>Tazón</li>
+            <li>Batidora</li>
+            <li>Espátula</li>
+        </ul>
+    </section>
+    <section>
+        <h2 class="advertencia">Advertencia</h2>
+        <p class="parrafo-advertencia">Este producto contiene fresas, el cual es un alimento que puede provocar alergias, en caso de ser alérgico a este producto omítalo en la receta, y si llega a presentar algún síntoma acuda al médico</p>
+        <p class="parrafo-advertencia">La alergia alimentaria es una reacción del sistema inmunitario que ocurre poco después de haber ingerido un determinado alimento. Incluso una pequeña cantidad del alimento que causa la alergia puede ocasionar signos y síntomas, como problemas digestivos, urticaria o inflamación de las vías respiratorias. En algunas personas, una alergia alimentaria puede ocasionar síntomas graves o, incluso, una reacción que puede poner en riego la vida, denominada «anafilaxis».</p>
+    </section>
+</body>
+</html>

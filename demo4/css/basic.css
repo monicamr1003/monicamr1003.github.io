@@ -1,0 +1,9 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2em 10% 2em 40px;
+    background-color: rgba(0, 238, 255, 0.733);
+    border: 2px dotted blue;
+    padding: 1em;
+    /*color: red;*/
+
+}
