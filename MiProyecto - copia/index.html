@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas sin alcohol</title>
+    <style>
+        @import url(css/index.css);
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Búsqueda de cócteles sin licor</h1>
+    </header>
+    <main>
+        <form id="fFilter" style="display: flex; flex-direction: column; gap: 40x"        >
+            <div class="input-group">  
+               
+            <input id="iFilter" type="search" placeholder="Nombre del cóctel a buscar" class="form-control" required minlength="2"/>
+           <!-- <input type="number" step="0.1">
+            <input type="date">-->
+            <span message="Se requiere filtro"></span>
+            <span class="input-group-btn"><button class="btn btn-default"  >Buscar</button>
+               
+            </span>
+            
+            </div>
+        </form>
+        
+        <hr>
+        <div id='modal'>
+            <h2 id='titulo'></h2>
+            <p id='categoria'></p>
+            <p id='instrucciones'></p>
+
+        </div>
+        <div>
+            <ul id="results"></ul>
+        </div>
+       
+    </main>
+    <!--Para optimizar la carga de la página, para que primera muestre el html-->
+    <script src="js/index.js"></script>
+</body>
+</html>
