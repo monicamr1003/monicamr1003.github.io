@@ -1,0 +1,172 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(29, 109, 141);
+
+}
+header{
+
+    border-bottom: 1px solid black;
+}
+main{
+
+    margin: 1em 2%;
+}
+
+h1{
+
+  /*text-shadow: rgb(25, 0, 255) 0 -2px;*/
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em rgb(4, 64, 88);
+  color: white;
+  font: 5.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+  text-align: center;
+  border: rgb(217, 236, 235) 8px outset;
+  background-color: rgb(98, 145, 148); /*rgb(239, 202, 157);*/
+}
+
+.introduccion{
+  font: 1.8em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+/*ul .principal{
+  --main-color: none;
+  --margin-base: 2em;
+
+}*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*ul>li{
+    border-bottom: 1 ox dotted gray;
+}*/
+
+ul > li > a.principal {
+ /* text-decoration: none;
+  color: none;
+  display: contents;
+  font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+  grid-template-columns: 0.7fr 0.3fr auto;
+  align-items: center;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;*/
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 1.5;
+  color: black;
+}
+/***/
+li {
+ /* display: inline;*/
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: rgb(206, 214, 219);
+}
+
+a:hover {
+  background: orange;
+}
+/**/
+ul > li > a {
+    text-decoration: none;
+    color: black;
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr auto;
+    align-items: center;
+  }
+  ul > li > a > p:last-child {
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(218, 79, 79);
+    text-shadow: 2px 2px 2px rgb(39, 37, 216);
+  }
+  /* Variables */
+:root {
+    --main-color: rgb(29, 109, 141);
+    --margin-base: 2em;
+  }
+  ul > li {
+    border-bottom: 1px dotted var(--main-color);
+    /* padding: 1em 0; */
+  }
+  ul > li:nth-child(odd) {
+    background: linear-gradient(
+      180deg,
+      var(--main-color) 3%,
+      rgba(207, 207, 230, 1) 20%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+
+ /* input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}*/
+/*Pseudoclases*/
+input:focus:invalid {
+    background-color: #bdb6fa;
+  }
+
+  /*Pseudoelementos*/
+  input::placeholder{
+      font-style: italic;
+      color: rgb(29, 109, 141);
+     
+  }
+
+  input::after:invalid {
+    content: "Datos inválidos";
+  }
+
+  form:invalid::after {
+    content: "Los datos del formulario son inválidos. Verifique.";
+}
+
+::selection{
+    background-color: yellowgreen;
+  }
+
+
+a > p:first-child::first-letter {  
+    font-size: 30em;
+    font-family:'Parchment' , sans-serif;
+  }
+  
+
+input:invalid+span[message]::after{
+    content: attr(message);
+
+}
+ul {
+    counter-reset: line;
+  }
+  
+  ul > li::before {  
+    counter-increment: line;
+    content: counter(line) ". ";
+  }
+
+  #modal{
+    display: none;
+    width: 80%;
+    height: 30vh;
+    background: rgb(113, 142, 185);
+    position: relative;
+    font-size: 20em;
+    font: 1em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+  }
+  
+
+  
+  
+      
+  
+  
